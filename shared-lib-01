@@ -1,0 +1,12 @@
+@Library('my-shared-lib-01') _
+
+pipeline {
+    agent any
+    stages {
+        stage ('Example') {
+            steps {
+                hello 'Crazyyyyyy'
+            }
+        }
+    }
+}
