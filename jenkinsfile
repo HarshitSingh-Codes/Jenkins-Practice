@@ -1,0 +1,10 @@
+node {
+	stage ('Checkout') {
+		git 'https://github.com/opstree/spring3hibernate.git'
+	}
+	stage ('mvn clean') {
+        withMaven(globalMavenSettingsConfig: '', jdk: '', maven: 'mvn', mavenSettingsConfig: '', traceability: true) {
+            sh 'mvn clean '
+        }
+	}
+}
