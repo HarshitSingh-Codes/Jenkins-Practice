@@ -1,0 +1,8 @@
+@Library('my-shared-lib-01') _
+
+node {
+	stage ('Checkout') {
+		clone()
+	}
+}
+

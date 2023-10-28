@@ -6,3 +6,7 @@ pipelineJob('dsl-pipeline') {
     }
   }
 }
+// client ID
+// 595817032397-hdq2jfg14rdf85d563kr9lveqripf1ip.apps.googleusercontent.com
+// client secret
+// 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
