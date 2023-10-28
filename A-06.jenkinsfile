@@ -4,5 +4,9 @@ node {
 	stage ('Checkout') {
 		clone()
 	}
+	stage ('User Approval') {
+		userApproval()
+	}
+	
 }
 
