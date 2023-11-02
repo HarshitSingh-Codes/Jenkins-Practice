@@ -7,6 +7,9 @@ node {
 	stage ('User Approval') {
 		userApproval()
 	}
-	
+	vars/mailNotification.groovy
+	stage ('User Approval') {
+		userApproval()
+	}
 }
 
